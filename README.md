@@ -107,8 +107,6 @@ StudyPilot_AI/
 ├── .gitignore                  # Prevents committing secrets & venv
 ├── README.md                   # Complete documentation
 ├── test_cases.md               # Test matrix and verification results
-├── viva_prep.md                # 25+ Comprehensive viva questions & answers
-├── demo_script.md              # 3-5 minute video narration script
 ├── deployment_guide.md         # Streamlit Community Cloud deployment guide
 ├── agent/
 │   ├── __init__.py             # Agent package init
@@ -119,7 +117,6 @@ StudyPilot_AI/
 │   └── tools.py                # AST-based Safe Arithmetic Calculator
 ├── tests/
 │   └── test_agent.py           # Automated unit test suite (14 passing tests)
-├── screenshots/                # Application visual verifications
 └── .streamlit/
     └── config.toml             # Light theme & server configuration
 ```
