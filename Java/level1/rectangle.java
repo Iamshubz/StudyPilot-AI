@@ -1,3 +1,4 @@
+package level1;
 import java.util.*;
 public class rectangle {
 
@@ -11,7 +12,7 @@ public class rectangle {
     breadth = sc.nextInt();
 
       area = breadth * length;
-      perimeter = 2 * (length + breadth);
+      perimeter = 2 *area;
 
       System.out.println("your rectangle area is:"+ area);
       System.out.println("your rectangle perimeter is : "+ perimeter);
